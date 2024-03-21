@@ -1,0 +1,34 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+    /* estilizar os links de listas dentro do header */
+    header li {
+        display:inline;
+    }
+
+/*  container é um elemento que irá englobar toda sua página, será o primeiro elemento e dentro dele virão as informações */
+.container {
+    width: 1366px;
+    margin: 0 auto; 
+
+}
+.articles {
+    display:flex;
+    flex-wrap:wrap ;
+    justify-content:space-between ;
+    
+
+}
+.articles article img{
+    height:180px;
+
+}
+.articles article {
+    width:30%;
+}
+
+
