@@ -4,10 +4,29 @@
     margin: 0;
     padding: 0;
 }
+body > header{
+    background-color: #FF8C00;
+    padding: 16px 0;
+    color:white;
+    
+    
+
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
 
     /* estilizar os links de listas dentro do header */
     header li {
         display:inline;
+        
+    }
+    header li a{
+        color: #fff;
     }
 
 /*  container é um elemento que irá englobar toda sua página, será o primeiro elemento e dentro dele virão as informações */
@@ -30,5 +49,88 @@
 .articles article {
     width:30%;
 }
+
+section{
+    padding: 16px 0;
+}
+
+section h2{
+    margin-bottom: 16px; 
+}
+
+.articles article{
+    margin-bottom:16px;
+}
+
+.articles article h3{
+margin-top: 8px;
+margin-bottom:8px;
+}
+.articles article a {
+background-color: #FF4500; 
+color: #fff;
+padding:4px;
+display: inline-block;
+text-decoration: none;
+font-weight: bold;
+margin-top: 8px;
+}
+
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3{
+    font-size:24px;
+
+}
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+    background-color:#009432;
+}
+
+#economy{
+    background-color: #f8f59f;
+}
+
+#economy .articles article a {
+    background-color:#ff9f1a;
+}
+
+#tecnology{
+    background-color: #ff9f1a;
+}
+
+#tecnology .articles article a{
+    background-color:#000;
+}
+
+#entertainment{
+    background-color:#f764d2;
+}
+
+#entertainment .articles article a{
+    background-color:#000;
+}
+
+
+
+
+
+
+
+
+
 
 
